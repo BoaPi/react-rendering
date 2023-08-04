@@ -258,7 +258,7 @@ interface CountState {
             <Header count={state.count}></Header>
             <button className="" onClick={() => dispatchCount({type: 'up' })}>Add +1</button>
             <div>Count: {state.count}</div>
-            <Footer handler={returnNumber}/>
+            <Footer />
             <List countries={countries}/>
           </HandlerContext.Provider>
         </div>
